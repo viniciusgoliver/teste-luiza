@@ -163,6 +163,15 @@ O projeto segue uma **Arquitetura em Camadas** para separar responsabilidades de
 - **Responsabilidade**: Contém lógica auxiliar e validação de dados, complementando a camada de serviço.
 - **Implementação**: Funções como `isValidOrderResponseDto` são utilizadas para validar se um DTO é válido, além de utilizar `class-validator` para validações adicionais.
 
+## Pipeline de CI/CD
+
+A aplicação utiliza um **Pipeline de CI/CD** automatizado, implementado utilizando o GitHub Actions, com as seguintes etapas:
+
+- **Build e Testes**: Compila o código, executa o linting, formata o código, roda testes unitários e de cobertura, e constrói o projeto.
+- **Deploy**: Após o sucesso na etapa de build e testes, o projeto é implantado em produção.
+
+O pipeline é acionado em push ou pull request na branch `main`, garantindo que o código passe por todas as verificações antes de ser implantado.
+
 ## Conclusão
 
 Esta arquitetura em camadas proporciona uma clara separação de responsabilidades, facilitando a manutenção, escalabilidade e extensão do sistema. A aplicação de boas práticas como a validação de dados e a containerização com Docker assegura que o sistema seja robusto e fácil de configurar em diferentes ambientes.
