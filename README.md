@@ -39,8 +39,9 @@ A arquitetura do sistema é baseada em uma abordagem de **Camadas**:
 
 2. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seuusuario/seurepositorio.git
-   cd seurepositorio
+   git clone https://github.com/viniciusgoliver/teste-luiza.git
+   cd teste-luiza
+
   ```
 3. **Crie e inicie o contêiner Docker**:
     ```bash
