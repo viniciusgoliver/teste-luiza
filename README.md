@@ -37,17 +37,19 @@ A arquitetura do sistema é baseada em uma abordagem de **Camadas**:
 
 1. **Certifique-se de ter o Docker e o Docker Compose instalados.**
 
-2. **Clone o repositório**:
-   ```bash
+2. **Clone o repositório**
+
+   ```
    git clone https://github.com/viniciusgoliver/teste-luiza.git
    cd teste-luiza
+   ```
 
-  ```
-3. **Crie e inicie o contêiner Docker**:
-    ```bash
+3. **Crie e inicie o contêiner Docker**
+    ```
       docker-compose up --build
       O serviço estará disponível em http://localhost:3000.
     ```
+
 
 ### Sem Docker
 
